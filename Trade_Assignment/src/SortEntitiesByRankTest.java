@@ -19,7 +19,7 @@ import enums.TradeAction;
  */
 public class SortEntitiesByRankTest {
 	
-	private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("DD-MM-yyyy");
+	private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
 	@Test
 	public void sortOneEntityByRank() {

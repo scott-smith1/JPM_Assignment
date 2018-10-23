@@ -18,7 +18,7 @@ import enums.TradeAction;
  */
 public class CalculateTotalsTest {
 	
-	private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("DD-MM-yyyy");
+	private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
 	@Test
 	public void emptyTransactionList() {

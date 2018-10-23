@@ -18,7 +18,7 @@ import enums.WWProfile;
  */
 public class WorkingWeekAssignmentTest {
 	
-	private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("DD-MM-yyyy");
+	private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 	
 	@Test
 	public void USDCurrency() {
